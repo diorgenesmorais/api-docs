@@ -1,0 +1,15 @@
+{
+  "name": "docs-api",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "repository": "https://github.com/diorgenesmorais/docs-api.git",
+  "author": "Diorgenes Morais",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "typescript": "5.4.5"
+  }
+}
