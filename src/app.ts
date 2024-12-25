@@ -1,7 +1,7 @@
-import express, { Request, Response } from 'express'
+import express, { type Request, type Response } from 'express'
 import swaggerUI from 'swagger-ui-express'
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 
 const PORT = process.env.PORT || 5000
 const app = express()
